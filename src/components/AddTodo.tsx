@@ -47,7 +47,7 @@ const AddTodo = ({ onAdd }: AddTodoProps) => {
         />
         <button
           type="submit"
-          className="px-4 py-3 text-primary-foreground bg-primary hover:bg-primary/90 transition-colors duration-200"
+          className="px-4 py-3 text-primary-foreground bg-pink-500 hover:bg-pink-600 transition-colors duration-200"
           data-cy="add-todo-button"
         >
           <Plus className="w-5 h-5" />
